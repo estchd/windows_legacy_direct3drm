@@ -5,10 +5,7 @@ edition = "2021"
 description = "Rust bindings for legacy Direct3DRM APIs"
 readme = "src/Readme.md"
 repository = "https://github.com/estchd/windows_legacy_direct3d"
-license-file = "MIT"
-
-[target.'cfg(windows)'.build-dependencies.windows-bindgen]
-version = "0.61.1"
+license = "MIT"
 
 [target.'cfg(windows)'.dependencies.windows]
 version = "0.61.1"

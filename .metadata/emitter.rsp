@@ -1,6 +1,0 @@
---typeImport
-IDirect3D(interface)=<Microsoft.Win32.Graphics.Direct3D.Legacy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null>Microsoft.Win32.Graphics.Direct3D.Legacy.IDirect3D
-IDirect3D2(interface)=<Microsoft.Win32.Graphics.Direct3D.Legacy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null>Microsoft.Win32.Graphics.Direct3D.Legacy.IDirect3D2
-IDirect3DDevice(interface)=<Microsoft.Win32.Graphics.Direct3D.Legacy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null>Microsoft.Win32.Graphics.Direct3D.Legacy.IDirect3DDevice
-IDirect3DDevice2(interface)=<Microsoft.Win32.Graphics.Direct3D.Legacy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null>Microsoft.Win32.Graphics.Direct3D.Legacy.IDirect3DDevice2
-IDirect3DViewport(interface)=<Microsoft.Win32.Graphics.Direct3D.Legacy, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null>Microsoft.Win32.Graphics.Direct3D.Legacy.IDirect3DViewport
