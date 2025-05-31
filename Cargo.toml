@@ -1,0 +1,29 @@
+[package]
+name = "windows_legacy_direct3drm"
+version = "0.1.0"
+edition = "2021"
+description = "Rust bindings for legacy Direct3DRM APIs"
+readme = "src/Readme.md"
+repository = "https://github.com/estchd/windows_legacy_direct3d"
+license-file = "MIT"
+
+[target.'cfg(windows)'.build-dependencies.windows-bindgen]
+version = "0.61.1"
+
+[target.'cfg(windows)'.dependencies.windows]
+version = "0.61.1"
+features = [
+    "Win32_Graphics_Direct3D",
+    "Win32_Graphics_Direct3D9",
+    "Win32_Graphics_DirectDraw",
+    "Win32_Foundation",
+    "Win32_System_SystemServices"
+]
+
+[target.'cfg(windows)'.dependencies]
+windows-core = "0.61.2"
+windows-numerics = "0.2.0"
+windows_legacy_direct3d = "0.3.1"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-pc-windows-msvc"]
